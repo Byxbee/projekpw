@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century gothic';
+}
+body{
+    /* background-color: #e4ebf7; */
+    background-color: #fff3e0;
+}
+
+
+.bg_nv {
+    width: 1200px;
+    height: 50px;
+    /* margin-top: 20px; */
+    /* background-color: mediumorchid; */
+    margin-left: 160px;
+    /* position: fixed; */
+}
+
+.logo {
+    width: 401px;
+    height: 50px;
+    color: white;
+    /* background-color: darkgreen; */
+    /* text-align: center; */
+    line-height: 50px;
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+}
+
+.menu a{
+    color:white;
+    line-height: 46px;
+    float: right;
+    display: block;
+    padding:2px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition:background-color 0.6s;
+}
+
+.menu a:hover {
+    color: #c88719;
+    /* color: maroon; */
+    background-color:#e4ebf7;
+    border-bottom: 3px solid #0D47A1;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    height: 783px;
+    padding-top: 20px;
+    background-color: gray;
+    background-image: url(img/bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+}
+
+.tawaran {
+    width: 500px;
+    height: 50px;
+    /* background-color: mediumslateblue; */
+    position:absolute;
+    top: 150px;
+    left:35%;
+}
+
+.tawaran h1 {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+.pckg {
+    width: 600px;
+    height: 250px;
+    /* background-color:rgb(247, 247, 247); */
+    border:3px solid white;
+    position: absolute;
+    top: 200px;
+    left: 31.8%;
+}
+.pckg a {
+    margin: 20px 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.pckg a:hover {
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .menu a {display: none;}
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .bg_nv{
+        width: 400px;
+        margin-left: 41.5px;
+        background-color:#CCC0AE;
+        border-radius: 10px;
+    }
+    .menu {
+        background-color:#CCC0AE;
+        overflow: hidden;
+    }
+    .logo {
+        width: 200px;
+        font-size: 10px;
+    }
+    .container {
+        height: 772px;
+        background-position-x: -350px;
+        background-position-y: -1px;
+    }
+    .tawaran {
+        position:none ;
+        width: 400px;
+        left: 41.5px;
+        top: 225px;
+    }
+    .pckg {
+        width: 400px;
+        top: 325px;
+        left: 41.5px;
+    }
+    .pckg a{
+        font-size: 14px;
+    }
+}

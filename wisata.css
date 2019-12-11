@@ -1,0 +1,1658 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century gothic';
+}
+body{
+    /* background-color: #e4ebf7; */
+    background-color: #fff3e0;
+}
+
+
+.bg_nv {
+    width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+    /* background-color: mediumorchid; */
+    margin-left: 160px;
+    /* position: fixed; */
+}
+
+.logo {
+    width: 401px;
+    height: 50px;
+    color:#707070;
+    /* background-color: darkgreen; */
+    /* text-align: center; */
+    line-height: 50px;
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+}
+
+.menu a{
+    color: #707070;
+    line-height: 46px;
+    float: right;
+    display: block;
+    padding:2px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition:background-color 0.6s;
+}
+
+.menu a:hover {
+    color: #c88719;
+    /* color: maroon; */
+    background-color:#e4ebf7;
+    border-bottom: 3px solid #0D47A1;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.tab {
+    /* add */
+    width: 600px;
+    height: 75px;
+    /* tengah */
+    /* margin-left: 500px; */
+    /* kiri */
+    margin-left: 160px;
+    margin-top: 50px;
+    /* end */
+
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: #e4ebf7; */
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    /* add */
+    width: 200px;
+    line-height: 50px;
+    /* end */
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color:#ccc0ae;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    /* padding: 6px 12px; */
+    /* border: 1px solid #ccc; */
+    /* border-top: none; */
+    /* add */
+    width: 1200px;
+    margin-left: 160px;
+    /* margin-top: 50px; */
+    float: left;
+    /* end */
+}
+
+.plc1{
+    width: 50%;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    /* padding-left: 5%; */
+    /* background-color: lightcoral; */
+    background-image: url(img/wave-textures-white-background-vector_53876-60287.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.gmbr{
+    width: 500px;
+    height: 400px;
+    margin: 20px 20px;
+    /* background-color: goldenrod; */
+    /* background-image: url(img/Danau-Probolinggo.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+}
+
+/* modal */
+
+#Modal {
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+}
+
+#Modal :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+.gmbr img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+.plc2 {
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    padding-top: 200px;
+    /* background-color: lightseagreen; */
+    float: right;
+}
+
+.dsc {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* margin-top: 200px; */
+    /* background-color: orchid; */
+}
+
+#a {
+    background-image: none;
+    /* background-color: lightseagreen; */
+    padding-left: 0;
+    box-sizing: border-box;
+    padding-top: 200px;
+}
+
+#a1 {
+    box-sizing: border-box;
+    padding-right: 20px;
+    background-image: none;
+    /* background-color: orchid; */
+    width: 100%;
+    height: 200px;
+}
+
+#b {
+    /* background-color: lightcoral; */
+    padding-top: 0;
+}
+
+#b1 {
+    /* background-image: url(img/payangan1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+    /* border: 3px solid #c88719; */
+    /* background-color: goldenrod; */
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+/* modal */
+#Modal2{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #c88719;
+
+}
+
+#Modal2 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#b1 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption2 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content2, #caption2 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content2 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#c {
+    background-image: url(img/vintage-ornamental-flowers-background_52683-28040.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#c1 {
+    /* background-image: url(img/kebun-teh-gunung-ungaran2.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -20px;
+}
+
+/* modal */
+#Modal3{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid #c88719; */
+
+}
+
+#Modal3 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#c1 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption3 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content3, #caption3 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content3 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+
+#e {
+    background-image: none;
+    padding-left: 0;
+    box-sizing: border-box;
+    padding-top: 200px;
+}
+
+#e1 {
+    box-sizing: border-box;
+    padding-right: 20px;
+    background-image: none;
+    /* background-color: orchid; */
+    width: 100%;
+    height: 200px;
+}
+
+#f {
+    background-image: url(img/vintage-ornamental-flowers-background_52683-28040.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+}
+
+#f1 {
+    /* background-image: url(img/papuma1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+/* modal */
+#Modal4{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid #c88719; */
+
+}
+
+#Modal4 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#f1 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption4 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content4, #caption4 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close4 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content4 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+.ft {
+    width: 100%;
+    height: 200px;
+    float: left;
+    background-color: #fff3e0;
+}
+
+#a2 {
+    /* background-image: url(img/jfc2.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* modal */
+#Modal5{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid #c88719; */
+
+}
+
+#Modal5 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#a2 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content5 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption5 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content5, #caption5 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close5 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close5:hover,
+  .close5:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content5 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#b2 {
+    /* background-image: url(img/Can-Macanan-Kaduk-02-932x480.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -150px;
+    /* border: 3px solid #c88719; */
+    /* background-color: goldenrod; */
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+/* modal */
+#Modal6{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #c88719;
+
+}
+
+#Modal6 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#b2 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal6 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content6 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption6 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content6, #caption6 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close6 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close6:hover,
+  .close6:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content6 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#c2 {
+    /* background-image: url(img/JARAN-KENCAK.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+/* modal */
+#Modal7{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid #c88719; */
+
+}
+
+#Modal7 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#c2 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal7 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content7 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption7 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content7, #caption7 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close7 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close7:hover,
+  .close7:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content7 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#f2 {
+    /* background-image: url(img/lahbako.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+    /* border: 3px solid #c88719; */
+    /* background-color: goldenrod; */
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+/* modal */
+#Modal8{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #c88719;
+
+}
+
+#Modal8 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#f2 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal8 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content8 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption8 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content8, #caption8 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close8 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close8:hover,
+  .close8:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content8 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#a3 {
+    /* background-image: url(img/puslitkoka1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* modal */
+#Modal9{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid #c88719; */
+
+}
+
+#Modal9 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#a3 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal9 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content9 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption9 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content9, #caption9 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close9 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close9:hover,
+  .close9:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content9 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#b3 {
+    /* background-image: url(img/anton-darius-thesollers-IuQKQxZs-TA-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+    /* border: 3px solid #c88719; */
+    /* background-color: goldenrod; */
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 400px;
+}
+/* modal */
+#Modal10{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #c88719;
+
+}
+
+#Modal10 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#b3 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal10 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content10 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption10 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content10, #caption10 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close10 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close10:hover,
+  .close10:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content10 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#c3 {
+    /* background-image: url(img/anton-darius-thesollers-IuQKQxZs-TA-unsplash.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* modal */
+#Modal11{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    /* border: 3px solid #c88719; */
+
+}
+
+#Modal11 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#c3 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal11 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content11 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption11 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content11, #caption11 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close11 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close11:hover,
+  .close11:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content11 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+#f3 {
+    /* background-image: url(img/anton-darius-thesollers-IuQKQxZs-TA-unsplash.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -50px;
+    /* border: 3px solid #c88719; */
+    /* background-color: goldenrod; */
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 400px;
+}
+/* modal */
+#Modal12{
+    cursor: pointer;
+    transition: 0.3s;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #c88719;
+
+}
+
+#Modal12 :hover {
+    opacity: 0.7;
+}
+/* img#Modal:hover{
+opacity: 0.7;
+} */
+
+#f3 img:hover{
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal12 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content12 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption12 {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content12, #caption12 {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close12 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close12:hover,
+  .close12:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content12 {
+      width: 100%;
+    }
+  }
+
+/* end modal */
+
+
+
+@media screen and (max-width:600px) {
+    .menu a {display: none;}
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .bg_nv{
+        width: 400px;
+        margin-left: 41.5px;
+        background-color:#CCC0AE;
+        border-radius: 10px;
+    }
+    .menu {
+        background-color:#CCC0AE;
+        overflow: hidden;
+    }
+    .logo {
+        width: 200px;
+        font-size: 10px;
+    }
+    .tab{
+        width: 400px;
+        margin-left: 41.5px;
+        margin-top: 150px;
+        /* margin-top: 0; */
+    }
+    .tab button {
+        width: 133px;
+        font-size: 12px;
+    }
+    .tabcontent {
+        width: 400px;
+        margin-left: 41.5px;
+    }
+    .plc1 {
+        width: 100%;
+        height: 200px;
+    }
+    .gmbr {
+        width: 50%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #Modal {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    .plc2 {
+        width: 100%;
+        height: 200px;
+        padding-top: 50px;
+    }
+    .dsc {
+        height: 100px;
+        padding-left: 0;
+        font-size: 12px;
+    }
+    #a {
+        width: 50%;
+        height: 400px;
+        padding-top: 0;
+        /* background-color: lightcoral; */
+    }
+    #a1 {
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+        font-size: 12px;
+        /* float: right; */
+        /* background-color: goldenrod; */
+    }
+    #b {
+        width: 50%;
+        height: 400px;
+        /* padding-top: 50px; */
+        /* background-color: lightseagreen; */
+    }
+    #b1 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+        /* background-color: orchid; */
+    }
+    #Modal2 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #Modal3 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #e{
+        width: 50%;
+        height: 400px;
+        padding-top: 0;
+        background-image: url(img/vintage-ornamental-flowers-background_52683-28040.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #e1 {
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    #f {
+        width: 50%;
+        height: 400px; 
+    }
+    #f1 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #Modal4 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #a2 {
+        width: 50%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #Modal5 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #b2 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+        background-position-x: -100px;
+    }
+    #Modal6 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #c2 {
+        width: 50%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #Modal7 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #f2 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #Modal8 {
+        width: 100%;
+        height: 200px;
+        margin: 3px 3px;
+    }
+    #b3 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #Modal9 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #Modal10{
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #Modal11 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #f3 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+    #Modal12 {
+        width: 100%;
+        height: 200px;
+        padding-right: 0;
+    }
+}

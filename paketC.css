@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century gothic';
+}
+body{
+    /* background-color: #e4ebf7; */
+    background-color: #fff3e0;
+}
+
+
+.bg_nv {
+    width: 1200px;
+    height: 50px;
+    margin-top: 20px;
+    /* background-color: mediumorchid; */
+    margin-left: 160px;
+    /* position: fixed; */
+}
+
+.logo {
+    width: 401px;
+    height: 50px;
+    color:#707070;
+    /* background-color: darkgreen; */
+    /* text-align: center; */
+    line-height: 50px;
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+}
+
+.menu a{
+    color: #707070;
+    line-height: 46px;
+    float: right;
+    display: block;
+    padding:2px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition:background-color 0.6s;
+}
+
+.menu a:hover {
+    color: #c88719;
+    /* color: maroon; */
+    background-color:#e4ebf7;
+    border-bottom: 3px solid #0D47A1;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.tittle {
+    width: 1200px;
+    height: 50px;
+    background-color: #707070;
+    margin-top: 50px;
+    margin-left: 160px;
+    line-height: 50px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    color: white;
+    border-radius: 50px;
+}
+
+.cont {
+    width: 1200px;
+    height: 200px;
+    /* background-color: #c88719; */
+    margin-left: 160px;
+    margin-top: 75px;
+}
+
+.mepo {
+    width: 50%;
+    height: 200px;
+    background-color:white;
+    color: #c88719;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.mepo h4 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.passgr{
+    width: 50%;
+    height: 200px;
+    background-color: #9c9c9c;
+    color: white;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 25px;
+    line-height: 50px;
+}
+
+.bg {
+    width: 1360px;
+    height: 300px;
+    /* margin-left: 160px; */
+    margin-top: 100px;
+    background-color:#CCC0AE;
+}
+
+.bga {
+    width: 1200px;
+    height: 300px;
+    background-color: #bcaaa4;
+    /* margin: 0 auto; */
+    margin-left: 160px;
+}
+
+.bga1 {
+    width: 50%;
+    height: 300px;
+    /* background-color: red; */
+    float:left;
+}
+
+.bga1_1 {
+    width: 50%;
+    height: 300px;
+    background-image: url(img/Danau-Probolinggo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: olive; */
+    margin-left: 150px;
+
+}
+
+#a1_1 {
+    background-image: url(img/kebun-teh-gunung-ungaran2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#b1_1 {
+    background-image: url(img/papuma3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#c1_1 {
+    background-image: url(img/27.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bga2 {
+    width: 50%;
+    height: 300px;
+    /* background-color:yellow; */
+    float:left;
+}
+
+.bga2_1 {
+    width: 100%;
+    height: 150px;
+    background-color: #CCC0AE;
+    /* background-color: #707070; */
+    margin-top: 75px;
+}
+
+.bg1 {
+    width: 1200px;
+    height: 300px;
+    margin-left: 160px;
+    /* margin-top: 100px; */
+    background-color:cadetblue;
+}
+#a {
+    /* margin-top: 50px; */
+    margin-left: 160px;
+}
+#a1 {
+    margin-left: 0;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    /* background-color: aqua; */
+    margin-top: 100px;
+}
+.submit {
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .menu a {display: none;}
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .bg_nv{
+        width: 400px;
+        margin-left:41.5px;
+        background-color:#CCC0AE;
+        border-radius: 10px;
+    }
+    .menu {
+        background-color:#CCC0AE;
+        overflow: hidden;
+    }
+    .logo {
+        width: 200px;
+        font-size: 10px;
+    }
+    .tittle {
+        width: 400px;
+        margin-left: 41.5px;
+    }
+    .cont {
+        width: 400px;
+        height: 400px;
+        margin-left: 41.5px;
+    }
+    .mepo {
+        width: 100%;
+        height: 200px;
+        font-size: 14px;
+        float: none;
+    }
+    .passgr {
+        width: 100%;
+        height: 200px;
+        float: none;
+    }
+    .bg {
+        width: 441.5px;
+        height: 200px;
+    }
+    .bga {
+        width: 400px;
+        height: 200px;
+        margin-left: 80px;
+    }
+    .bga1, .bga2 {
+        width: 100%;
+        height: 200px;
+        float: none;
+    }
+    .bga2 {
+        box-sizing: border-box;
+        padding-top: 25px;
+    }
+    .bga1_1 {
+        margin-left: 50px;
+        height: 200px;
+    }
+    .bga2_1 {
+        margin-top: 0;
+    }
+    #a {
+        margin-left: 41.5px;
+        margin-top: 250px;
+    }
+    #b {
+        margin-top: 250px;
+    }
+    .footer {
+        margin-top: 200px;
+    }
+}

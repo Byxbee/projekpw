@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century gothic';
+}
+body{
+    /* background-color: #e4ebf7; */
+    background-color: #fff3e0;
+   
+}
+
+
+.bg_nv {
+    width: 1200px;
+    height: 50px;
+    /* margin-top: 20px; */
+    /* background-color: mediumorchid; */
+    margin-left: 160px;
+    /* position: fixed; */
+}
+
+.logo {
+    width: 401px;
+    height: 50px;
+    color:white;
+    /* background-color: darkgreen; */
+    /* text-align: center; */
+    line-height: 50px;
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+}
+
+.menu a{
+    color: white;
+    line-height: 46px;
+    float: right;
+    display: block;
+    padding:2px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition:background-color 0.6s;
+}
+
+.menu a:hover {
+    color: #c88719;
+    /* color: maroon; */
+    background-color:#e4ebf7;
+    border-bottom: 3px solid #0D47A1;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.bg {
+    width: 100%;
+    height: 702px;
+    padding-top: 20px;
+    /* background-color: #0D47A1; */
+    background-image: url(img/titik\ nol-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+}
+
+.pttrn {
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background-color: #c88719;
+    background-image: url(img/lilly-rum-eE4YBIxSP60-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -350px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.up {
+    width: 1200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 160px;
+    /* background-color: violet; */
+    text-align: center;
+    color: white;
+}
+
+.pattern{
+    width: 450px;
+    height: 500px;
+    /* background-color: #c88719; */
+    background-image: url(img/IMG-20180708-WA0018.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -220px;
+    border: 3px solid white;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.cont{
+    width: 1200px;
+    height: 400px;
+    margin-left: 160px;
+    margin-top: 50px;
+    /* background-color: gray; */
+}
+.a, .b, .c {
+    width: 400px;
+    height: 400px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    color: white;
+    /* border: 1px solid black; */
+    /* background-color: #CCC0AE; */
+    float: left;
+}
+
+
+
+@media screen and (max-width:600px) {
+    
+    .menu a {display: none;}
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .bg_nv{
+        width: 400px;
+        margin-left: 41.5px;
+        background-color:#CCC0AE;
+        border-radius: 10px;
+    }
+    .menu {
+        background-color:#CCC0AE;
+        overflow: hidden;
+    }
+    .logo {
+        width: 200px;
+        font-size: 10px;
+    }
+    .bg {
+        height: 1400px;
+        background-position-y: 0;
+        background-position-x: -600px;
+    }
+    .pttrn {
+        height: 250px;
+        background-position-y: -20px;
+    }
+    .up {
+        width: 400px;
+        height: 50px;
+        margin-left: 41.5px;
+    }
+    .pattern {
+        width: 300px;
+        height: 400px;
+        margin-top: 50px;
+        margin-left: 41.5px;
+        background-position-y: -120px;
+    }
+    .cont {
+        width: 400px;
+        margin-left: 41.5px;
+        
+    }
+    .a, .b, .c {
+        float: none;
+        width: 350px;
+        margin: 0 auto;
+        /* color: black; */
+    }
+}

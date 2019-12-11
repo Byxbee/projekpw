@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Century gothic';
+}
+body{
+    /* background-color: #e4ebf7; */
+    background-color: #fff3e0;
+}
+
+
+.bg_nv {
+    width: 1200px;
+    height: 50px;
+    /* margin-top: 20px; */
+    /* background-color: mediumorchid; */
+    margin-left: 160px;
+    /* position: fixed; */
+}
+
+.logo {
+    width: 401px;
+    height: 50px;
+    color:white;
+    /* background-color: darkgreen; */
+    /* text-align: center; */
+    line-height: 50px;
+    float: left;
+}
+
+.menu {
+    overflow: hidden;
+    border-radius: 10px;
+    /* background-color: lightcoral; */
+}
+
+.menu a{
+    color: white;
+    line-height: 46px;
+    float: right;
+    display: block;
+    padding:2px 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition:background-color 0.6s;
+}
+
+.menu a:hover {
+    color: #c88719;
+    /* color: maroon; */
+    background-color:#e4ebf7;
+    border-bottom: 3px solid #0D47A1;
+}
+
+.menu .icon {
+    display: none;
+}
+
+.cont {
+    width: 100%;
+    height: 1780px;
+    padding-top: 20px;
+    /* background-color: lightseagreen; */
+    background-image: url(img/malte-wingen-5qT09yIbROk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -700px;
+}
+
+.slideshowcont {
+    position: absolute;
+    left: 34.5%;
+}
+
+.mySlides {
+    display: none;
+    top: 150px;
+}
+
+.dodot {
+    position: absolute;
+    top:550px;
+    left: 49%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease; 
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.up {
+    width: 500px;
+    height: 50px;
+    /* background-color: mediumslateblue; */
+    position:absolute;
+    top: 720px;
+    left:35%;
+}
+
+.up h1 {
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+}
+
+.con {
+    width: 56%;
+    height: 300px;
+    margin: 0 auto;
+    /* background-color: darkolivegreen; */
+    position: absolute;
+    top: 800px;
+    left: 23%;
+}
+
+.a {
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: white;
+    float: left;
+}
+
+.a h1 {
+    color: black;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.a p {
+    color: black;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.a1 {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-image: url(img/matthew-smith-Rfflri94rs8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.b {
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+}
+
+.b h1 {
+    color: black;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.b p {
+    color: black;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.b1 {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-image: url(img/atharva-tulsi-gcU6y0qhEio-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.c {
+    width: 250px;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+}
+
+.c h1 {
+    color: black;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.c p {
+    color: black;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.c1 {
+    width: 90%;
+    height: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-image: url(img/vitaly-taranov-g-58RBROIfc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5px;
+}
+
+.iklan {
+    width: 100%;
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    position:absolute;
+    top: 1400px;
+
+}
+
+.sp1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url(img/download.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-x: -33px; */
+    border-radius: 50%;
+    margin:100px 50px;
+    float: left;
+}
+
+.sp2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url(img/wonderful-indonesia-logo-B415890EF6-seeklogo.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin:100px 50px;
+    float: left;
+}
+
+.sp3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url(img/unnamed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin:100px 50px;
+    float: left;
+}
+
+.sp4 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url(img/KAB\ JEMBER.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -33px;
+    background-position-y: 10px;
+    border-radius: 50%;
+    margin:100px 50px;
+    float: left;
+}
+
+.sp5 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    background-image: url(img/images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin:100px 50px;
+    float: left;
+}
+
+@media screen and (min-width: 601px) {
+    .mySlides {
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+        background-color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .menu a {display: none;}
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .bg_nv{
+        width: 400px;
+        margin-left: 41.5px;
+        background-color:#CCC0AE;
+        border-radius: 10px;
+    }
+    .menu {
+        background-color:#CCC0AE;
+        overflow: hidden;
+    }
+    .logo {
+        width: 200px;
+        font-size: 10px;
+    }
+    .cont {
+        height: 2080px;
+        background-position-x: -1700px;
+    }
+    .slideshowcont {
+        left: 0;
+        margin-left: 41.5px;
+    }
+    .mySlides {
+        width: 200px;
+        height: 200px;
+    }
+    .mySlides {
+        width: 400px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+    .dodot {
+        top: 0;
+        left: 0;
+        margin-top: 500px;
+        margin-left: 43%;
+    }
+    .up {
+        left: 0;
+        margin-left: 41.5px;
+        width: 400px;
+    }
+    .con {
+        left: 0;
+        margin-left: 41.5px;
+        width: 400px;
+        
+    }
+    .a, .b, .c {
+        margin-left: 75px;
+    }
+    .b, .c {
+        margin-top: 30px;
+    }
+    .iklan {
+        height: 200px;
+        top: 0;
+        margin-top: 1900px;
+    }
+    .sp1, .sp2, .sp3, .sp4, .sp5 {
+        width: 55px;
+        height: 55px;
+        margin: 30px 20px;
+    }
+    .sp4 {
+        background-position-x: -10px;
+        background-position-y: 5px;
+    }
+}

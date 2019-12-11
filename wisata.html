@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="wisata.css">
+    <title>NGELENCER.COM | WISATA KOTA JEMBER</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="bg_nv">
+            <div class="logo">
+                <H1>NGELENCER.COM</H1>
+            </div>
+            
+            <div class="menu" id="myMenu">
+                <a href="register.html">Masuk</a>
+                <a href="acara.html">Acara</a>
+                <a href="paketwisata.html">Paket wisata</a>
+                <a href="index.html">Beranda</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+    </div>
+    <!-- end navbar -->
+
+    <!-- page -->
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Wisata Alam')" id="defaultOpen">Wisata Alam</button>
+        <button class="tablinks" onclick="openCity(event, 'Wisata Budaya')">Wisata Budaya</button>
+        <button class="tablinks" onclick="openCity(event, 'Wisata Agribisnis')">Wisata Agribisnis</button>
+    </div>
+      
+    <div id="Wisata Alam" class="tabcontent">
+
+        <div class="plc1">
+            <div class="gmbr" > <img id="Modal" src="img/Danau-Probolinggo.jpg" alt=""> </div>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+        </div>
+        <div class="plc2">
+            <div class="dsc">
+                <h3>Gunung Argopuro</h3>
+                <p>Gunung Argapura (sering dieja Gunung Argopuro) adalah sebuah gunung berapi kompleks yang terdapat di Jawa Timur, Indonesia. Gunung Argapura mempunyai ketinggian setinggi 3.088 meter. Gunung ini berada dalam wilayah Kabupaten Probolinggo, Kabupaten Lumajang, Kabupaten Jember, Kabupaten Bondowoso, dan Kabupaten Situbondo, dengan puncak Rengganis ada di wilayah Kabupaten Jember. </p>
+            </div>
+        </div>
+
+        <div class="plc1" id="a">
+            <div class="gmbr" id="a1">
+                <h3>Pantai Payangan</h3>
+                <p>Destinasi wisata yang berlokasi di jalan Sidomulyo ini termasuk sebagai salah satu destinasi wisata unik karena kawasan tersebut menawarkan panorama dengan 3 buah pantai, 3 bukit dan 1 teluk. Tak hanya itu, pasir pantai yang hitam serta suara deburan ombak aduhai membuat pantai Payangan ini sebagai tempat berkemah favorit para pelancong.</p>
+            </div>
+        </div>
+        <div class="plc2" id="b">
+            <div class="dsc" id="b1"> <img id="Modal2" src="img/payangan1.jpg" alt=""> </div>
+            <!-- The Modal -->
+            <div id="myModal2" class="modal2">
+
+                <!-- The Close Button -->
+                <span class="close2">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content2" id="img02">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption2"></div>
+            </div>
+        </div>
+
+        <div class="plc1" id="c">
+            <div class="gmbr" id="c1"> <img id="Modal3" src="img/kebun-teh-gunung-ungaran2.jpg" alt=""> </div>
+            <!-- The Modal -->
+            <div id="myModal3" class="modal3">
+
+                <!-- The Close Button -->
+                <span class="close3">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content3" id="img03">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption3"></div>
+            </div>
+        </div>
+        <div class="plc2" id="d">
+            <div class="dsc" id="d1">
+                <h3>Kebun Teh Gunung Gambir</h3>
+                <p>Merupakan salah satu destinasi wisata yang sebenarnya pada awalnya hanyalah sebuah perkebunan teh yang ditanam pada tahun 1918, Perkebunan ini merupakan peninggalan dari masa kolonial Belanda sejak tahun 1918 dan berada di ketinggian 900 M dari permukaan laut.</p>
+            </div>
+        </div>
+
+        <div class="plc1" id="e">
+            <div class="gmbr" id="e1">
+                <h3>Pantai Papuma</h3>
+                <p>Tanjung Papuma yang dikenal memiliki hamparan pasir putih nan indah serta dipenuhi dengan pepohonan rimbun membuat spot bagus tersebut tak pernah sepi akan pengunjung. Selain untuk menikmati keindahan karang-karang cantik yang fenomenal dan pasir putihnya, disini kita juga dapat melakukan berbagai aktivitas seperti bermain air ataupun sekedar berjemur.</p>
+            </div>
+        </div>
+        <div class="plc2" id="f">
+            <div class="dsc" id="f1"> <img id="Modal4" src="img/papuma1.jpg" alt=""> </div>
+            <!-- The Modal -->
+            <div id="myModal4" class="modal4">
+
+                <!-- The Close Button -->
+                <span class="close4">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content4" id="img04">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption4"></div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="ft"></div>
+        <!-- endfooter -->
+
+    </div>
+      
+      <div id="Wisata Budaya" class="tabcontent">
+        
+        <div class="plc1">
+            <div class="gmbr" id="a2"> <img id="Modal5" src="img/jfc2.jpg" alt=""> </div>
+            <!-- The Modal -->
+            <div id="myModal5" class="modal5">
+
+                <!-- The Close Button -->
+                <span class="close5">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content5" id="img05">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption5"></div>
+            </div>
+        </div>
+            <div class="plc2">
+                <div class="dsc">
+                    <h3>Jember Fashion Carnifal</h3>
+                    <p>Berawal Dari Maraknya Group Reyog Ponorogo yang memadati jalan raya protokol kota di saat arak-arakan budaya HUT kota Jember maupun perayaan kemerdekaan yang selalu menarik perhatian warga tiap Tahun. Sehingga terciptalah ide pemikiran sebuah parade dengan jalan kaki dengan menggenakan kostum yang menarik, meriah, warna cerah serta berumbai-rumbai khalayak seniman reyog tetapi memiliki khas sendiri pada identitas kota Jember.</p>
+                </div>
+            </div>
+    
+            <div class="plc1" id="a">
+                <div class="gmbr" id="a1">
+                    <h3>Can Macanan Kadduk</h3>
+                    <p>Can-Macanan Kadduk adalah seni budaya Pandhalungan khas Kabupaten Jember yang mempertontonkan macan-macanan dari karung goni di malam hari. Can-macanan berarti harimau gadungan dan Kadduk berarti karung.</p>
+                </div>
+            </div>
+            <div class="plc2" id="b">
+                <div class="dsc" id="b2"> <img id="Modal6" src="img/Can-Macanan-Kaduk-02-932x480.jpg" alt=""> </div>
+                <!-- The Modal -->
+            <div id="myModal6" class="modal6">
+
+                <!-- The Close Button -->
+                <span class="close6">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content6" id="img06">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption6"></div>
+            </div>
+            </div>
+    
+            <div class="plc1" id="c">
+                <div class="gmbr" id="c2"> <img id="Modal7" src="img/JARAN-KENCAK.jpg" alt=""> </div>
+                <!-- The Modal -->
+            <div id="myModal7" class="modal7">
+
+                <!-- The Close Button -->
+                <span class="close7">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content7" id="img07">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption7"></div>
+            </div>
+            </div>
+            <div class="plc2" id="d">
+                <div class="dsc" id="d1">
+                    <h3>Jaran Kencak</h3>
+                    <p>Salah satu warisan budaya dan seni di masyarakat Jember adalah jaran kencak (kuda menari).Kuda atau jaran kencak (bhs Jawa) yang dipakai bukan sembarang kuda, namun kuda jenis ini adalah kuda yang senang menari dengan mengikuti irama musik tradisional yang ditabuh oleh pengiringnya. Untuk melengkapi keunikan dan lebih menarik maka kudakuda itu dihias sedemikian rupa.</p>
+                </div>
+            </div>
+    
+            <div class="plc1" id="e">
+                <div class="gmbr" id="e1">
+                    <h3>Tari Lahbako</h3>
+                    <p>Merupakan tarian tradisional yang menggambarkan kehidupan para petani tembakau di Jember, Jawa Timur. Tarian ini dipentaskan oleh beberapa penari perempuan dengan gerakan yang menggambarkan aktivitas para petani di ladang atau kebun tembakau, menjadi salah satu icon kota Jember.</p>
+                </div>
+            </div>
+            <div class="plc2" id="f">
+                <div class="dsc" id="f2"> <img id="Modal8" src="img/lahbako.jpg" alt=""> </div>
+                <!-- The Modal -->
+            <div id="myModal8" class="modal8">
+
+                <!-- The Close Button -->
+                <span class="close8">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content8" id="img08">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption8"></div>
+            </div>
+            </div>
+    
+            <!-- footer -->
+            <div class="ft"></div>
+            <!-- endfooter -->
+
+      </div>
+      
+      <div id="Wisata Agribisnis" class="tabcontent">
+        
+            <div class="plc1">
+                    <div class="gmbr" id="a3"> <img id="Modal9" src="img/puslitkoka1.jpg" alt=""> </div>
+                    <!-- The Modal -->
+            <div id="myModal9" class="modal9">
+
+                <!-- The Close Button -->
+                <span class="close9">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content9" id="img09">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption9"></div>
+            </div>
+                </div>
+                    <div class="plc2">
+                        <div class="dsc">
+                            <h3>Pusat Penelitian Kopi dan Kakao</h3>
+                            <p>Satu-satunya pusat penelitian kopi dan kakao di Indonesia hanya ada di Kabupaten Jember, Jawa Timur. Dari sini, biji kopi dan kakao terbaik dihasilkan. Selain diekspor, bibit-bibit terbaik juga dikirim ke berbagai wilayah di nusantara untuk terus dikembangkan. Anda bisa mengikuti tur berkeliling kebun kopi dan kakao, memasuki pabrik dan melihat proses pengolahan kakao, dan mendapat segelas kopi atau cokelat panas di outlet setelah tur selesai.</p>
+                        </div>
+                    </div>
+            
+                    <div class="plc1" id="a">
+                        <div class="gmbr" id="a1">
+                            <h3>PT Mitratani Dua Tujuh</h3>
+                            <p>Merupakan agribisnis yang bergerak dalam sektor perkebunan. Sejak tahun 2006 PT. Mitratani Dua Tujuh telah menghentikan impor benih dan mulai memproduksi multiplikasi benih edamame maupun okra Sebagai tanaman palawija berumur pendek lebih 70 hari, sangat tepat sebagai tanaman rotasi (gilir tanam) dengan tembakau maupun tanaman lain yang saling menguntungkan!</p>
+                        </div>
+                    </div>
+                    <div class="plc2" id="b">
+                        <div class="dsc" id="b3"> <img id="Modal10" src="img/27.jpg" alt=""> </div>
+                        <!-- The Modal -->
+            <div id="myModal10" class="modal10">
+
+                <!-- The Close Button -->
+                <span class="close10">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content10" id="img010">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption10"></div>
+            </div>
+                    </div>
+            
+                    <div class="plc1" id="c">
+                        <div class="gmbr" id="c3"> <img id="Modal11" src="img/cerutu.jpg" alt="">  </div>
+                        <!-- The Modal -->
+            <div id="myModal11" class="modal11">
+
+                <!-- The Close Button -->
+                <span class="close11">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content11" id="img011">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption11"></div>
+            </div>
+                    </div>
+                    <div class="plc2" id="d">
+                        <div class="dsc" id="d1">
+                            <h3>Agrowisata Tembakau dan Pembuatan Cerutu</h3>
+                            <p>Sudah sejak lama Kabupaten Jember menjadi daerah penghasil tembakau terbesar. Maka dari itu, tak heran jika di sini Anda akan menemui banyak lahan yang ditanami pohon tembakau. Bahkan beberapa pabrik besar di sini bergerak dalam hal tembakau dan sukses menembus pasar internasional.Selain tembakau mentah, beberapa pabrik juga mengolah hasil alam ini menjadi rokok atau cerutu.</p>
+                        </div>
+                    </div>
+            
+                    <div class="plc1" id="e">
+                        <div class="gmbr" id="e1">
+                            <h3>PT AHSTI</h3>
+                            <p>PT Asian Hybrid Seeds Technologies Indonesia (sebelumnya PT Jagung Hibrida Sulawesi) adalah unit bisnis dari perusahaan induk Indophil Asia Equities, Incorporated. Perusahaan ini telah berkembang pesat dan menjadi salah satu pemain utama di antara produsen benih jagung hibrida lainnya di Indonesia.</p>
+                        </div>
+                    </div>
+                    <div class="plc2" id="f">
+                        <div class="dsc" id="f3"> <img id="Modal12" src="img/ahsti.jpg" alt=""> </div>
+                        <!-- The Modal -->
+            <div id="myModal12" class="modal12">
+
+                <!-- The Close Button -->
+                <span class="close12">&times;</span>
+            
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content12" id="img012">
+            
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption12"></div>
+            </div>
+                        
+                    </div>
+            
+                    <!-- footer -->
+                    <div class="ft"></div>
+                    <!-- endfooter -->
+    </div>
+
+    
+
+    <!-- end page -->
+
+</body>
+
+<!-- modal 1-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 2 -->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal2");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal2");
+    var modalImg = document.getElementById("img02");
+    var captionText = document.getElementById("caption2");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close2")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 3 -->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal3");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal3");
+    var modalImg = document.getElementById("img03");
+    var captionText = document.getElementById("caption3");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close3")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 4 -->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal4");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal4");
+    var modalImg = document.getElementById("img04");
+    var captionText = document.getElementById("caption4");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close4")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 5-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal5");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal5");
+    var modalImg = document.getElementById("img05");
+    var captionText = document.getElementById("caption5");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close5")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 6-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal6");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal6");
+    var modalImg = document.getElementById("img06");
+    var captionText = document.getElementById("caption6");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close6")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 7-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal7");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal7");
+    var modalImg = document.getElementById("img07");
+    var captionText = document.getElementById("caption7");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close7")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 8-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal8");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal8");
+    var modalImg = document.getElementById("img08");
+    var captionText = document.getElementById("caption8");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close8")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 9-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal9");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal9");
+    var modalImg = document.getElementById("img09");
+    var captionText = document.getElementById("caption9");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close9")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 10-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal10");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal10");
+    var modalImg = document.getElementById("img010");
+    var captionText = document.getElementById("caption10");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close10")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 11-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal11");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal11");
+    var modalImg = document.getElementById("img011");
+    var captionText = document.getElementById("caption11");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close11")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<!-- modal 12-->
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal12");
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("Modal12");
+    var modalImg = document.getElementById("img012");
+    var captionText = document.getElementById("caption12");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close12")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+</script>
+
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myMenu");
+        if (x.className === "menu") {
+            x.className += " responsive";
+        } else {
+            x.className = "menu";
+        }
+    }
+</script>
+
+</html>
